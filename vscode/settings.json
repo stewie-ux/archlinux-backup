@@ -1,0 +1,22 @@
+{
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "workbench.colorTheme": "Matugen Bordered",
+    "workbench.iconTheme": "minimal-icons",
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "workbench.statusBar.visible": false,
+    "editor.formatOnSave": true,
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle",
+    "workbench.editor.showTabs": "single",
+    "window.commandCenter": false,
+    "workbench.browser.showInTitleBar": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "breadcrumbs.enabled": false,
+    // Scroolbar
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.horizontalScrollbarSize": 2,
+    "editor.scrollbar.verticalScrollbarSize": 2,
+}
