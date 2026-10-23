@@ -1,0 +1,28 @@
+# Commands to run in interactive sessions can go here
+if status is-interactive
+    # No greeting
+    set fish_greeting
+
+    # Use starship
+    function starship_transient_prompt_func
+        starship module character
+    end
+    if test "$TERM" != "linux"
+        starship init fish | source
+        enable_transience
+    end
+    
+    # Colors
+    if test -f ~/.local/state/quickshell/user/generated/terminal/sequences.txt
+        cat ~/.local/state/quickshell/user/generated/terminal/sequences.txt
+    end
+
+    # Aliases
+    alias code 'codium'
+    alias tree 'eza --tree'
+    if test "$TERM" != "linux"
+        alias ls 'eza --icons=auto'
+    end
+
+end
+

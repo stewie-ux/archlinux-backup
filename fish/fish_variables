@@ -1,0 +1,4 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export JAVA_HOME:/opt/android\x2dstudio/jbr
+SETUVAR fish_user_paths:/opt/android\x2dstudio/jbr/bin
